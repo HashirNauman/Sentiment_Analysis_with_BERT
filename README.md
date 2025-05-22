@@ -36,8 +36,8 @@ pip install tensorflow tensorflow_datasets transformers scikit-learn matplotlib 
 
 1. **Clone the repo**
 
-   ```bash
-   ```
+   
+   
 
 git clone <your-repo-url>
 cd <repo-folder>
@@ -82,7 +82,7 @@ python main.py
 ## 📂 File Structure
 
 ```
-├── main.py              # Training & evaluation script
+├── Main.py              # Training & evaluation script
 ├── accuracy_plot.png    # Training/validation accuracy over epochs
 ├── loss_plot.png        # Training/validation loss over epochs
 ├── confusion_matrix.png # Confusion matrix heatmap
