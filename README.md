@@ -36,29 +36,25 @@ pip install tensorflow tensorflow_datasets transformers scikit-learn matplotlib 
 
 1. **Clone the repo**
 
-   
-   
-
-git clone <your-repo-url>
-cd <repo-folder>
-
-````
+   ```bash
+   git clone https://github.com/HashirNauman/Sentiment_Analysis_with_BERT.git
+   cd Sentiment_Analysis_with_BERT
+   ```
 
 2. **Run training & evaluation**
-   ```bash
-python main.py
-````
 
-* Trains for 3 epochs
-* Saves `accuracy_plot.png`, `loss_plot.png`, and `confusion_matrix.png`
-* Prints final test loss and accuracy (\~88%)
+   ```bash
+   python main.py
+   ```
+
+   * Trains for 3 epochs
+   * Saves `accuracy_plot.png`, `loss_plot.png`, and `confusion_matrix.png`
+   * Prints final test loss and accuracy (\~88%)
 
 3. **Result artifacts**
 
-   * `sentiment_bert_model/`
-
-     * `tf_model.h5` and tokenizer files
-   * Plot images in the working directory
+   * `sentiment_bert_model/` directory with model weights and tokenizer files
+   * Training and evaluation plots (`accuracy_plot.png`, `loss_plot.png`, `confusion_matrix.png`)
 
 ---
 
