@@ -9,7 +9,7 @@ A concise implementation of a binary sentiment classifier using Hugging Face's B
 * **Dataset**: IMDB reviews (binary classification: positive vs. negative)
 * **Model**: `TFBertForSequenceClassification` (`bert-base-uncased`)
 * **Training**: 3 epochs, batch size 8, learning rate 2e-5
-* **Evaluation**: Test accuracy ~88%, confusion matrix, and classification report
+* **Evaluation**: Test accuracy \~88%, confusion matrix, and classification report
 * **Outputs**: Saved model/tokenizer, training curves, confusion matrix plot
 
 ---
@@ -36,12 +36,13 @@ pip install tensorflow tensorflow_datasets transformers scikit-learn matplotlib 
 
 1. **Clone the repo**
 
-  
+   ```bash
+   ```
 
 git clone <your-repo-url>
 cd <repo-folder>
 
-
+````
 
 2. **Run training & evaluation**
    ```bash
@@ -78,10 +79,10 @@ python main.py
 
 ---
 
-File Structure
+## 📂 File Structure
 
 ```
-├── Main.py              # Training & evaluation script
+├── main.py              # Training & evaluation script
 ├── accuracy_plot.png    # Training/validation accuracy over epochs
 ├── loss_plot.png        # Training/validation loss over epochs
 ├── confusion_matrix.png # Confusion matrix heatmap
